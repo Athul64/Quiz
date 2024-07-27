@@ -48,3 +48,20 @@ function navigateTotechquiz(){
 function navigateTogeoquiz(){
     window.location.href= 'geo.html'
 }
+
+//contact
+ // JavaScript to show and hide popup
+ document.getElementById('contactLink').addEventListener('click', function(event) {
+    event.preventDefault();
+    document.getElementById('contactPopup').style.display = 'flex';
+});
+
+function closePopup() {
+    document.getElementById('contactPopup').style.display = 'none';
+}
+
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent form from submitting the default way
+    alert('Your message has been sent!');
+    closePopup(); // Close the popup after form submission
+});
