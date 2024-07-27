@@ -1,0 +1,101 @@
+/* Basic reset to remove default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+    color: #191919;
+}
+
+.logoname {
+    font-size: 1.5rem;
+    font-weight: bold;
+    gap: 0.5rem;
+}
+span {
+    color: #FF6A70;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    margin-left: 1rem;
+    padding: 0.5rem 2rem;
+    border: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.login_btn {
+    background-color: #FFE1D7; 
+    color: #FF6A70;
+}
+
+.sign_btn {
+    background-color: #FF6A70; 
+    color: white;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #FF6A70;
+}
+
+.bg {
+    width: 40%;
+    height: auto;
+    margin-right: 0px; 
+    margin-top: -100px;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.btn_start {
+    margin-left: 740px; 
+    margin-top: -250px;
+}
+
+.start_btn{
+    background-color: #FF6A70;
+    color: #fff;
+}
+
+p {
+    margin: 0;
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.p_con {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 10px;
+}
